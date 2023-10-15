@@ -154,24 +154,25 @@ nav button{
     width: 100%;
     gap: 48px;
 }
-.image img{
+.img-col {
     position: relative;
     flex-basis: 45%;
     margin: 40px 20px;
-    width: 50%;
+    max-width: 50vh;
     gap: 48px;
     /* overflow: hidden; */
-    border: 5px solid rgb(24, 139, 30);
+    /* border: 5px solid rgb(24, 139, 30); */
    /* z-index: 5; */
 }
 
 
-.video  {
+.video video  {
     position: absolute;
-    top: 20%;
-    left: 85px;
-    max-width: 74vh;
+    top: 39px;
+    left: 33px;
+    max-width: 60%;
     z-index: -1;
+    /* border: 2px solid rgb(52, 10, 238); */
 
 }
 .img-col img{
