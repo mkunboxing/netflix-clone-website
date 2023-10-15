@@ -316,7 +316,7 @@ input[type = "checkbox"]{
 
     }
     .email-signup{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         height: 50px;
     }
     .email-signup button{
