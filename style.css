@@ -165,15 +165,17 @@ nav button{
    /* z-index: 5; */
 }
 
-
-.video video  {
+.img-col .image {
+    display:flex;
+    align-items: center;
+}
+.img-col video  {
     position: absolute;
-    top: 39px;
-    left: 33px;
-    max-width: 60%;
+    top:49%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:60%;
     z-index: -1;
-    /* border: 2px solid rgb(52, 10, 238); */
-
 }
 .img-col img{
     /* display: block; */
