@@ -10,7 +10,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 100vh;
+    min-height: 80vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
     background-size: cover;
     background-position: center;
@@ -59,37 +59,35 @@ nav button{
 
     /* border: 2px solid rebeccapurple; */
     margin: auto;
-    width: 80%;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
+    min-width: 10%;
+    /* min-height: 50%; */
+     /* position: absolute; */
     text-align: center;
     margin-top: 100px;
 }
 .header-content h1{
     text-align: center;
-    flex-basis: auto;
-    font-size: 80px;
-    line-height: 80px;
+    /* flex-basis: auto; */
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 800;
-    max-width: 100%;
-    margin-bottom: 20px;
+    max-width: 200%;
+    margin-bottom: 10px;
     
 }
 .header-content h3{
     font-weight: 500;
     margin-bottom: 20px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .email-signup{
     
     /* border-radius: 5px; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
-    margin-top: 30px;
+    margin: 30px;
     /* overflow: hidden; */
     gap: 10px;
     /* border: 5px solid red; */
@@ -156,22 +154,28 @@ nav button{
     width: 100%;
     gap: 48px;
 }
-.image {
+.image img{
     position: relative;
-    /* border: 5px solid rgb(24, 139, 30); */
-   z-index: 5;
+    flex-basis: 45%;
+    margin: 40px 20px;
+    width: 50%;
+    gap: 48px;
+    /* overflow: hidden; */
+    border: 5px solid rgb(24, 139, 30);
+   /* z-index: 5; */
 }
 
-.video video {
+
+.video  {
     position: absolute;
-    top: 100px;
-    left: 80px;
-    max-width: 470px;
-    z-index: -5;
-    /* border: 2px solid red; */
+    top: 20%;
+    left: 85px;
+    max-width: 74vh;
+    z-index: -1;
+
 }
 .img-col img{
-    display: block;
+    /* display: block; */
     width: 80%;
     margin: auto;
 }
@@ -267,7 +271,8 @@ input[type = "checkbox"]{
 
 }
 .footer .col a{
-    display: block;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: #777;
     font-size: 15px;
@@ -318,7 +323,7 @@ input[type = "checkbox"]{
         padding: 10px 15px;
         text-align: center;
     }
-    .text-col, .img-col{
+    .text-col, .img-col, .first-feature{
         flex-basis: 100%;
         text-align: center;
     }
